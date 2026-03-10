@@ -11,8 +11,9 @@ int main(int argc, char* argv[]) {
     }
 
     std::string ip   = argv[1];
+    int port;
     try {
-        int port = std::stoi(argv[2]);
+        port = std::stoi(argv[2]);
     } catch (std::invalid_argument e) {
         std::cout << "Invalid port" << e.what() << std::endl;
     }
