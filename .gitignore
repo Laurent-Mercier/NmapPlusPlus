@@ -11,3 +11,6 @@ compile_commands.json
 
 # Compiled binary
 nmappp
+
+# Dotfiles
+.clang-format
